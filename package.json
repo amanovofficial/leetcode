@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "@types/node": "^16.11.6"
-  }
+  },
+  "name": "leetcode",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanovofficial/leetcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanovofficial/leetcode/issues"
+  },
+  "homepage": "https://github.com/amanovofficial/leetcode#readme"
 }
