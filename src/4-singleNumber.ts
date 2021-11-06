@@ -30,12 +30,15 @@
 
 
 function singleNumber(nums: number[]): number {
-    let i = 0;
-    while (i < nums.length) {
-
+    let singleNum = 0;
+    
+    for (let i = 0; i < nums.length; i++) {
+        singleNum = singleNum ^ nums[i];  
+        console.log('sn',singleNum);
         
-
     }
 
-    return
+    return singleNum;
 };
+
+console.log(singleNumber([44,1,2,1,2]));
