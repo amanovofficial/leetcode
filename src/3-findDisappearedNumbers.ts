@@ -16,6 +16,7 @@
 // Использован алгоритм "Cyclic sort"
 
 function findDisappearedNumbers(nums: number[]): number[] {
+    console.log(nums)
     let i = 0; 
     while (i < nums.length) {
         const position = nums[i] - 1;
@@ -27,7 +28,7 @@ function findDisappearedNumbers(nums: number[]): number[] {
             i++
         }
     }
-
+    console.log(nums)
    const disappearedNumbers = [];
 
    for (let i = 0; i < nums.length; i++) {

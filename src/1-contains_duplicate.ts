@@ -19,7 +19,7 @@ const containsDuplicate = (nums: number[]): boolean => {
         set.add(nums[i])
     }
 
-    return !(set.size === nums.length)
+    return set.size !== nums.length
 }
 console.log(containsDuplicate([1, 2, 3, 1]));
 console.log(containsDuplicate([1, 2, 3, 4]));
